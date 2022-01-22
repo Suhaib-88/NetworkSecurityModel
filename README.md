@@ -26,3 +26,10 @@ Now, Lets pick Binary-Classifier
 Result:
 
 ![](https://github.com/Suhaib-88/NetworkSecurityModel/blob/master/static/chrome-capture%20(3).jpg)
+
+
+## How To run locally?
+-Activate virtual environment
+-clone the repo into your machine
+-pip install -r requirements.txt
+-(run) app.py

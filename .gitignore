@@ -2,3 +2,5 @@ Lib/*
 Include/*
 .cfg
 share/*
+.pyc
+Scripts/*

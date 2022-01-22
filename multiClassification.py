@@ -1,6 +1,7 @@
 # Importing modules
 from Application_Logger.logger import App_Logger
 from data_preprocessing.preprocessor import Preprocessor
+from data_preprocessing.label_encoder import labelEncoder
 from data_loading.loader import DataLoader
 from model_building.models import ModelBuilding
 from data_visualization.plotting import DataPlotting
@@ -39,8 +40,9 @@ class MultiModel:
         train_data=preprocess.drop_nans(train_data)
         test_data=preprocess.drop_nans(test_data)
 
-        train_data=preprocess.label_encoder(train_data,label_name='attack_type')
-        test_data=preprocess.label_encoder(test_data,label_name="attack_type")
+        encoder=labelEncoder(self.file_object,self.logger_obj)
+        train_data=encoder.multi_encoder(train_data,label_name='attack_type')
+        test_data=encoder.multi_encoder(test_data,label_name="attack_type")
 
         X_train,y_train= preprocess.sep_target_column(train_data,'attack_type')
         X_test,y_test=preprocess.sep_target_column(test_data,'attack_type')
@@ -103,4 +105,3 @@ class MultiModel:
         df=pd.DataFrame({"classifier_name":classifier_name,"training_time":training_time,"testing_time":testing_time,'training_score':training_score,'testing_score':testing_score})
         y_pred=y_pred.tolist()
         return df,y_pred,y_tests
-        

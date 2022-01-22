@@ -29,7 +29,7 @@ Result:
 
 
 ## How To run locally?
--Activate virtual environment
--clone the repo into your machine
--pip install -r requirements.txt
+-Activate virtual environment<br>
+-clone the repo into your machine<br>
+-pip install -r requirements.txt<br>
 -(run) app.py

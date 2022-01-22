@@ -1,0 +1,75 @@
+2022-01-21/22:01:05->> 		Reading Training file 
+2022-01-21/22:01:06->> 		Reading Testing file 
+2022-01-21/22:01:06->> 		Sucessfully encoded categorical columns 
+2022-01-21/22:01:06->> 		Sucessfully encoded categorical columns 
+2022-01-21/22:01:07->> 		Performed correlation 
+2022-01-21/22:01:07->> 		dropping uncessary columns 
+2022-01-21/22:01:07->> 		dropping uncessary columns 
+2022-01-21/22:01:08->> 		dropping empty or nan values 
+2022-01-21/22:01:08->> 		dropping empty or nan values 
+2022-01-21/22:01:08->> 		label encoding target 
+2022-01-21/22:01:08->> 		label encoding target 
+2022-01-21/22:01:08->> 		Seperating target col 
+2022-01-21/22:01:08->> 		Seperating target col 
+2022-01-21/22:01:08->> 		Entered the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:01:25->> 		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:01:25->> 		Entered the create_clusters method of the KMeansClustering class 
+2022-01-21/22:01:26->> 		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class 
+2022-01-21/22:01:26->> 		Entered the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:01:30->> 		The optimum number of clusters is: 2 . Exited the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:01:30->> 		Entered the create_clusters method of the KMeansClustering class 
+2022-01-21/22:01:30->> 		succesfully created 2clusters. Exited the create_clusters method of the KMeansClustering class 
+2022-01-21/22:01:30->> 		scaling train and test data 
+2022-01-21/22:01:30->> 		Model Training: Starting 
+2022-01-21/22:03:20->> 		Model Training: Completed 
+2022-01-21/22:03:26->> 		Successfully saved plots 
+2022-01-21/22:07:03->> 		Reading Training file 
+2022-01-21/22:07:04->> 		Reading Testing file 
+2022-01-21/22:07:04->> 		Sucessfully encoded categorical columns 
+2022-01-21/22:07:04->> 		Sucessfully encoded categorical columns 
+2022-01-21/22:07:05->> 		Performed correlation 
+2022-01-21/22:07:06->> 		dropping uncessary columns 
+2022-01-21/22:07:06->> 		dropping uncessary columns 
+2022-01-21/22:07:06->> 		dropping empty or nan values 
+2022-01-21/22:07:06->> 		dropping empty or nan values 
+2022-01-21/22:07:06->> 		label encoding target 
+2022-01-21/22:07:06->> 		label encoding target 
+2022-01-21/22:07:06->> 		Seperating target col 
+2022-01-21/22:07:06->> 		Seperating target col 
+2022-01-21/22:07:06->> 		Entered the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:07:28->> 		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:07:28->> 		Entered the create_clusters method of the KMeansClustering class 
+2022-01-21/22:07:29->> 		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class 
+2022-01-21/22:07:29->> 		Entered the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:07:33->> 		The optimum number of clusters is: 2 . Exited the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:07:33->> 		Entered the create_clusters method of the KMeansClustering class 
+2022-01-21/22:07:33->> 		succesfully created 2clusters. Exited the create_clusters method of the KMeansClustering class 
+2022-01-21/22:07:33->> 		scaling train and test data 
+2022-01-21/22:07:33->> 		Model Training: Starting 
+2022-01-21/22:09:02->> 		Model Training: Completed 
+2022-01-21/22:09:04->> 		Successfully saved plots 
+2022-01-21/22:19:22->> 		Reading Training file 
+2022-01-21/22:19:22->> 		Reading Testing file 
+2022-01-21/22:19:22->> 		Sucessfully encoded categorical columns 
+2022-01-21/22:19:22->> 		Sucessfully encoded categorical columns 
+2022-01-21/22:19:24->> 		Performed correlation 
+2022-01-21/22:19:24->> 		dropping uncessary columns 
+2022-01-21/22:19:24->> 		dropping uncessary columns 
+2022-01-21/22:19:24->> 		dropping empty or nan values 
+2022-01-21/22:19:24->> 		dropping empty or nan values 
+2022-01-21/22:19:25->> 		label encoding target 
+2022-01-21/22:19:25->> 		label encoding target 
+2022-01-21/22:19:25->> 		Seperating target col 
+2022-01-21/22:19:25->> 		Seperating target col 
+2022-01-21/22:19:25->> 		Entered the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:19:44->> 		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:19:44->> 		Entered the create_clusters method of the KMeansClustering class 
+2022-01-21/22:19:45->> 		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class 
+2022-01-21/22:19:45->> 		Entered the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:19:49->> 		The optimum number of clusters is: 2 . Exited the elbow_plot method of the KMeansClustering class 
+2022-01-21/22:19:49->> 		Entered the create_clusters method of the KMeansClustering class 
+2022-01-21/22:19:49->> 		succesfully created 2clusters. Exited the create_clusters method of the KMeansClustering class 
+2022-01-21/22:19:49->> 		scaling train and test data 
+2022-01-21/22:19:49->> 		Model Training: Starting 
+2022-01-21/22:21:27->> 		Model Training: Completed 
+2022-01-21/22:21:30->> 		Successfully saved plots 
